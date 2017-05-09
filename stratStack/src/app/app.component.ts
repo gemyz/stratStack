@@ -5,6 +5,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { HomePage } from '../pages/home/home';
 import { ListPage } from '../pages/list/list';
+import {StratColFormPage} from "../pages/stratColForm/strat-col-form";
 
 @Component({
   templateUrl: 'app.html'
@@ -22,9 +23,9 @@ export class MyApp {
     // used for an example of ngFor and navigation
     this.pages = [
       { title: 'Home', component: HomePage },
-      { title: 'List', component: ListPage },
+      { title: 'Data', component: ListPage },
       { title: 'Record Geolocation', component: ListPage },
-      { title: 'Create Stratigraphic Column', component: ListPage },
+      { title: 'Create Stratigraphic Column', component: StratColFormPage},
       { title: 'Take Outcrop Photo', component: ListPage },
       { title: 'Sketch Outcrop', component: ListPage },
       { title: 'Export Results', component: ListPage },

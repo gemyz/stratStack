@@ -22,7 +22,13 @@ export class MyApp {
     // used for an example of ngFor and navigation
     this.pages = [
       { title: 'Home', component: HomePage },
-      { title: 'List', component: ListPage }
+      { title: 'List', component: ListPage },
+      { title: 'Record Geolocation', component: ListPage },
+      { title: 'Create Stratigraphic Column', component: ListPage },
+      { title: 'Take Outcrop Photo', component: ListPage },
+      { title: 'Sketch Outcrop', component: ListPage },
+      { title: 'Export Results', component: ListPage },
+      { title: 'Notes', component: ListPage }
     ];
 
   }
